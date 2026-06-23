@@ -1,2 +1,2 @@
-# Models-Matem-tics-de-la-Malaltia-d-Alzh-imer
+# ModelsMatematicsMalaltiaAlzheimer
 Alguns dels codis emprats en este TFG
