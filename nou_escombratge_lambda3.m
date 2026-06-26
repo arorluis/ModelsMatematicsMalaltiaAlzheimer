@@ -62,7 +62,7 @@ Ti = 0;
 %% VARIABLES A REPRESENTAR
 nom_vars = {'P','B','Q','C','T','A','N'};
 
-%% SIMULACIONS (només una vegada per cada lambda_3)
+%% SIMULACIONS 
 t = cell(1,length(lambda_3_0));
 Z = cell(1,length(lambda_3_0));
 for it=1:length(T_vals)
@@ -96,7 +96,7 @@ for ivar = 1:7
         plot(t{it,ilambda}, ...
              Z{it,ilambda}(:,ivar), ...
              'LineWidth',1.5,...
-             'DisplayName',sprintf('$\\lambda_3/\\lambda_3^*=%.2f$',...
+             'DisplayName',sprintf('$\\lambda_3/\\bar{\\lambda}_3=%.2f$',...
              lambda_3_0(ilambda)/lambda_3_eq));
 
     end
